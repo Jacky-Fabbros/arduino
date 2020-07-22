@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "wifi ID";
-const char* password = "wifi PW";
+const char* ssid = "wifi ID";         /////// "와이파이 아이디"
+const char* password = "wifi PW";     /////// "와이파이 비밀번호"
 
 WiFiServer server(80);
 // 변수 지정
