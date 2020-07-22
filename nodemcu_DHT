@@ -1,6 +1,7 @@
 #include <ESP8266WiFi.h>
-const char* ssid = "iptime";
-const char* password = "";
+const char* ssid = "wifi ID";
+const char* password = "wifi PW";
+
 #include "DHT.h"
 #define DHTPIN 2 // DHT11이 연결된 핀
 #define DHTTYPE DHT11 // DHT 11, DHT시리즈중 11을 선택합니다.
